@@ -1,0 +1,93 @@
+*{
+  font-family: "helvetica neue";
+}
+.center{
+  text-align: center;
+}
+body{
+  background-color: whitesmoke;
+}
+h1{
+  font-weight: 100;
+  letter-spacing: 0.5em;
+}
+.portfolio{
+  background-color: black;
+}
+nav{
+  font-weight: 50;
+  letter-spacing: 0.05em;
+}
+ul{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  overflow: hidden;
+  background-color: gray;
+}
+li{
+  float: left;
+  border-right: 1px solid white;
+}
+li:last-child{
+  border-right: none;
+}
+li a{
+  display: block;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+}
+li a:hover:not(.portfolio){
+  background-color: silver;
+}
+h2{
+  font-size: 30px;
+  font-weight: 150;
+  letter-spacing: 0.05em;
+  margin-bottom: 5px;
+}
+.lead-form{
+  text-align: center;
+  font-size:40px;
+}
+form{
+  text-align: center;
+  margin:0 auto;
+}
+.item{
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+.input{
+  float: center;
+  width:800px;
+}
+input[type="text"],input[type="email"]{
+  padding:10px;
+  font-size: 15px;
+  width: 400px;
+}
+.textarea{
+}
+textarea{
+  padding: 10px;
+  font-size: 15px;
+  height: 200px;
+  width: 400px;
+}
+.btn-area{
+  float: center;
+}
+input[type="submit"]{
+  background: gray;
+  border: none;
+  color: white;
+  font-size:17px;
+  font-weight:50;
+  padding: 10px 20px;
+  margin: 0 5px;
+  letter-spacing: 0.1em;
+  text-align: center;
+}
